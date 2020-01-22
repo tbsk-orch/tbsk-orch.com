@@ -10,7 +10,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Link Checker
+      id: lc
       uses: peter-evans/link-checker@v1.1.0
       with:
         args: -v -r *
+    - name: Fail if there where link errors
+      run: exit ${{ steps.lc.outputs.exit_code }}  
 
