@@ -348,6 +348,7 @@ table td {
 .box .concert-desc {
   flex-grow: 1;
   margin-right: 10px;
+  margin-left: 10px
 }
 .box .concert-desc + div {
   clear:both;
@@ -438,6 +439,6 @@ table td {
 
 /* hotfix :shit: :shit: */
 /* http://labrid.jp/wp/iphone7%E3%81%A7twitter%E3%81%AE%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%EF%BC%88iframe%EF%BC%89%E3%81%8C%E3%81%AF%E3%81%BF%E5%87%BA%E3%81%99%E3%80%90%E8%A7%A3%E6%B1%BA%E3%80%91/ */
-.bnrL iframe { 
-  width: 740px !important; 
+.bnrL iframe {
+  width: 740px !important;
 }
