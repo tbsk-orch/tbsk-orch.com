@@ -2,343 +2,353 @@
 
 /* ========BASIC======== */
 html {
-  overflow-y:scroll;
+  overflow-y: scroll;
 }
 
 body {
-  margin:0;
-  padding:0;
-  line-height:1.6;
-  font-family:"Hiragino Kaku Gothic Pro",HiraKakuPro-W3,"ヒラギノ角ゴ Pro W3","メイリオ", Meiryo,"ＭＳ Ｐゴシック",verdana,sans-serif;
-  font-size:13px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: "Hiragino Kaku Gothic Pro", HiraKakuPro-W3, "ヒラギノ角ゴ Pro W3",
+    "メイリオ", Meiryo, "ＭＳ Ｐゴシック", verdana, sans-serif;
+  font-size: 13px;
   background: #363144 url("../images/bg.png") no-repeat fixed left bottom;
-  -webkit-text-size-adjust:none;
+  -webkit-text-size-adjust: none;
 }
 
 br {
-  letter-spacing:normal;
+  letter-spacing: normal;
 }
 
 a {
-  color:#917700;
-  text-decoration:none;
+  color: #917700;
+  text-decoration: none;
 }
 
 a:hover {
-  color:#C59D07;
-  text-decoration:underline;
+  color: #c59d07;
+  text-decoration: underline;
 }
 
 img {
-  border:0;
-  vertical-align:bottom;
+  border: 0;
+  vertical-align: bottom;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  margin:0;
-  letter-spacing:1px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  letter-spacing: 1px;
 }
 
 h2 {
-  clear:both;
-  padding:10px 10px;
-  color:#000;
-  font-size:24px;
-  font-weight:normal;
-  line-height:1.4;
-  text-align:center;
+  clear: both;
+  padding: 10px 10px;
+  color: #000;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.4;
+  text-align: center;
 }
 
 h3 {
-  clear:both;
-  margin:50px 0 0 0;
-  font-size:18px;
-  font-weight:bold;
-  color:#917700;
-  line-height:1.8;
-  border-bottom:2px dotted #917700;
+  clear: both;
+  margin: 50px 0 0 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #917700;
+  line-height: 1.8;
+  border-bottom: 2px dotted #917700;
 }
 h2 + h3 {
-  margin-top:20px;
+  margin-top: 20px;
 }
 h3:first-child {
-  margin-top:0;
+  margin-top: 0;
 }
 
 h3 + h4 {
-  margin-top:10px;
+  margin-top: 10px;
 }
 h4 {
-  margin:30px 0 0 0;
-  color:#917700; /*#513315;*/
-  font-weight:normal;
-  font-family:"ヒラギノ明朝 ProN W6","HiraMinProN-W6","HGP明朝E","HGS明朝E","ＭＳ Ｐ明朝","MS PMincho","MS 明朝",serif;
-  font-size:16px;
-  line-height:2.0;
-  border:0;
+  margin: 30px 0 0 0;
+  color: #917700; /*#513315;*/
+  font-weight: normal;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HGP明朝E", "HGS明朝E",
+    "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-size: 16px;
+  line-height: 2;
+  border: 0;
 }
 h5 {
-  line-height:2.0;
-  font-size:14px;
-  color:#000;
-  font-weight:normal;
+  line-height: 2;
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
 }
 
 h6 {
-  font-size:14px;
-  font-weight:normal;
-  color:#917700;
-  line-height:2.0;
+  font-size: 14px;
+  font-weight: normal;
+  color: #917700;
+  line-height: 2;
 }
 
 p {
-  margin:0.5em 0 1em 0;
-  line-height:1.8;
+  margin: 0.5em 0 1em 0;
+  line-height: 1.8;
 }
 
-ul,ol,dl {
-  margin:10px 0;
-  padding:0;
+ul,
+ol,
+dl {
+  margin: 10px 0;
+  padding: 0;
 }
 
 li {
-  padding:0;
-  margin:0 0 0 30px;
+  padding: 0;
+  margin: 0 0 0 30px;
 }
 
 dt {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 dd {
-  margin:0 0 1em 0;
-  padding:10px;
-  background:#f1f1f1;
+  margin: 0 0 1em 0;
+  padding: 10px;
+  background: #f1f1f1;
 }
 
 table {
-  width:100%;
-  margin:10px 0;
-  border-collapse:collapse;
-  border:1px solid #999;
-  border-spacing:0;
-  line-height:1.8;
+  width: 100%;
+  margin: 10px 0;
+  border-collapse: collapse;
+  border: 1px solid #999;
+  border-spacing: 0;
+  line-height: 1.8;
 }
 
 table th {
-  padding:5px;
-  border:1px solid #999;
-  background:#EFEBEF;
-  font-weight:bold;
-  text-align:left;
+  padding: 5px;
+  border: 1px solid #999;
+  background: #efebef;
+  font-weight: bold;
+  text-align: left;
 }
 
 table td {
-  padding:5px;
-  border:1px solid #999;
-  text-align:left;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: left;
 }
 
 /* ========TEMPLATE LAYOUT======== */
 #container {
-  width:1100px;
-  margin:10px auto;
-  background:#fff;
-  -webkit-border-radius:10px;
-  -moz-border-radius:10px;
-  border-radius:10px;
+  width: 1100px;
+  margin: 10px auto;
+  background: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 #header {
-  position:relative;
-  width:94%;
-  margin:0 auto;
+  position: relative;
+  width: 94%;
+  margin: 0 auto;
 }
 
 #menu {
-  position:absolute;
-  right:0;
-  top:35px;
+  position: absolute;
+  right: 0;
+  top: 35px;
 }
 
 #contents {
-  clear:both;
-  overflow:hidden;
-  width:94%;
-  padding:10px 0;
-  margin:0 auto;
+  clear: both;
+  overflow: hidden;
+  width: 94%;
+  padding: 10px 0;
+  margin: 0 auto;
 }
 
 #conL {
-  float:left;
-  width:300px;
+  float: left;
+  width: 300px;
 }
 
 #conR {
-  float:right;
-  width:700px;
+  float: right;
+  width: 700px;
 }
 
 #footMenu {
-  clear:both;
-  width:94%;
-  margin:30px auto 0 auto;
+  clear: both;
+  width: 94%;
+  margin: 30px auto 0 auto;
 }
 
 #footer {
-  clear:both;
-  width:94%;
-  margin:0 auto;
+  clear: both;
+  width: 94%;
+  margin: 0 auto;
 }
 
 /* ========HEADER CUSTOMIZE======== */
 #header h1 {
-  margin:0;
-  padding:30px 0;
-  font-size:30px;
-  color:#770000;
-  line-height:1.0;
+  margin: 0;
+  padding: 30px 0;
+  font-size: 30px;
+  color: #770000;
+  line-height: 1;
 }
 
 #header h1 a {
-  color:#770000;
+  color: #770000;
 }
 
 #header h1 a:hover {
-  color:#770000;
+  color: #770000;
 }
 
 /* ========MENU CUSTOMIZE======== */
 #menu ul {
-  margin:0;
-  padding:0;
-  list-style:none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 #menu li {
-  overflow:hidden;
-  float:left;
-  margin:0;
-  padding:0 0 0 30px;
+  overflow: hidden;
+  float: left;
+  margin: 0;
+  padding: 0 0 0 30px;
 }
 
 #menu li a {
-  display:block;
-  font-weight:bold;
-  color:#333;
-  outline:none;
+  display: block;
+  font-weight: bold;
+  color: #333;
+  outline: none;
 }
 
 #menu li a:hover {
-  color:#333;
-  border-bottom:3px solid #917700;
-  text-decoration:none;
+  color: #333;
+  border-bottom: 3px solid #917700;
+  text-decoration: none;
 }
 
 /* ========MAINCONTENTS CUSTOMIZE======== */
 /*======== conR CUSTOMIZE========*/
 #conR h3 {
-  padding:0 30px;
-  background:url("../images/haon_0.png") -2px no-repeat
+  padding: 0 30px;
+  background: url("../images/haon_0.png") -2px no-repeat;
 }
 
 /* SUBMENU CUSTOMIZE */
 .submenu h3 {
-  position:relative;
-  text-align:center;
-  margin:0;
-  padding:15px 0;
-  line-height:1.0;
-  font-weight:bold;
-  color:#fff;
-  border:none;
-  background:#806198;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 15px 0;
+  line-height: 1;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  background: #806198;
 }
 
 .submenu h4 {
-  font-family:"Hiragino Kaku Gothic Pro",HiraKakuPro-W3,"ヒラギノ角ゴ Pro W3","メイリオ", Meiryo,"ＭＳ Ｐゴシック",verdana,sans-serif;
-  color:#FFF;
-  margin:0;
-  padding:10px;
-  font-size:14px;
-  font-weight:bold;
-  background:#806198;
+  font-family: "Hiragino Kaku Gothic Pro", HiraKakuPro-W3, "ヒラギノ角ゴ Pro W3",
+    "メイリオ", Meiryo, "ＭＳ Ｐゴシック", verdana, sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #806198;
 }
 .submenu ul {
-  margin:0 10px;
-  padding:0;
+  margin: 0 10px;
+  padding: 0;
 }
 .submenu li {
-  margin:0;
-  padding:0 0 0 7px;
-  list-style:none;
-  border-bottom:1px dotted #ddd;
-  background:url("../images/bg_arrow.gif") no-repeat left 50%;
+  margin: 0;
+  padding: 0 0 0 7px;
+  list-style: none;
+  border-bottom: 1px dotted #ddd;
+  background: url("../images/bg_arrow.gif") no-repeat left 50%;
 }
 .submenu li a {
-  color:#000;
-  display:block;
-  padding:10px 0;
-  text-decoration:none;
+  color: #000;
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
 }
 .submenu li a:hover {
-  color:#917700;
+  color: #917700;
 }
 .submenu p {
-  margin:10px;
+  margin: 10px;
 }
 
 /* BANNER CUSTOMIZE */
 .bnrL {
-  margin:20px 0;
+  margin: 20px 0;
 }
 
 .bnrL ul {
-  margin:0 -15px 0 0;
-  padding:0;
-  overflow:hidden;
+  margin: 0 -15px 0 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .bnrL li {
-  float:left;
-  padding:0;
-  list-style:none;
+  float: left;
+  padding: 0;
+  list-style: none;
   margin: 0 15px 10px 0;
 }
 
 .bnrR {
-  width:278px;
-  margin:20px 0;
-  padding:10px;
-  border:1px solid #ddd;
+  width: 278px;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
 }
 
 .bnrR ul {
-  margin:0 0 -10px 0;
-  padding:0;
+  margin: 0 0 -10px 0;
+  padding: 0;
 }
 
 .bnrR li {
-  padding:10px;
-  list-style:none;
+  padding: 10px;
+  list-style: none;
   margin: 0 0 10px;
-  background:#eee;
+  background: #eee;
 }
 
 /* BOX CUSTOMIZE */
 .concert {
-  overflow:hidden;
-  margin:10px 0;
-  padding:10px;
-  border:10px solid #eee;
+  overflow: hidden;
+  margin: 10px 0;
+  padding: 10px;
+  border: 10px solid #eee;
 }
 
 .concert h4 {
-  margin-top:0;
+  margin-top: 0;
 }
 .box {
-  display:flex;
+  display: flex;
 }
 
 .box .pnf {
@@ -350,85 +360,86 @@ table td {
   margin-right: 10px;
 }
 .box .concert-desc + div {
-  clear:both;
+  clear: both;
 }
 
 .first {
-  margin-top:0;
+  margin-top: 0;
 }
 
 .youtube-container {
-  position:relative;
-  width:100%;
-  height:0;
-  padding-top:
-  56.25%;
-  margin-top:10px
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+  margin-top: 10px;
 }
 .youtube {
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.font-size-lg { font-size: 14px; }
+.font-size-lg {
+  font-size: 14px;
+}
 
 /* ========FOOTMENU CUSTOMIZE======== */
 #footMenu ul {
-  margin:5px 0;
-  padding:20px 0;
-  text-align:center;
+  margin: 5px 0;
+  padding: 20px 0;
+  text-align: center;
 }
 
 #footMenu li {
-  display:inline;
-  margin:0 0 0 20px;
-  list-style:none;
+  display: inline;
+  margin: 0 0 0 20px;
+  list-style: none;
 }
 
 #footMenu li a {
-  color:#000;
-  text-decoration:none;
+  color: #000;
+  text-decoration: none;
 }
 
 #footMenu li a:hover {
-  color:#666;
-  text-decoration:underline;
+  color: #666;
+  text-decoration: underline;
 }
 
 /* ========FOOTER CUSTOMIZE======== */
 .copyright {
-  border-top:1px solid #ddd;
-  font-style:normal;
-  font-size:11px;
-  color:#999;
-  line-height:3.0;
-  text-align:center;
+  border-top: 1px solid #ddd;
+  font-style: normal;
+  font-size: 11px;
+  color: #999;
+  line-height: 3;
+  text-align: center;
 }
 
 /* ========PAGETOP CUSTOMIZE========= */
 #pageTop {
-  position:fixed;
-  right:20px;
-  bottom:20px;
-  letter-spacing:1px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  letter-spacing: 1px;
 }
 
 #pageTop a {
-  display:block;
-  padding:20px 30px 20px 42px;
-  color:#fff;
-  font-size:11px;
-  text-decoration:none;
-  background:#917D77 url("../images/bg_pagetop.gif") 30px 50% no-repeat;
-  -webkit-border-radius:20px;
-  -moz-border-radius:20px;
-  border-radius:20px;
+  display: block;
+  padding: 20px 30px 20px 42px;
+  color: #fff;
+  font-size: 11px;
+  text-decoration: none;
+  background: #917d77 url("../images/bg_pagetop.gif") 30px 50% no-repeat;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
 }
 #pageTop a:hover {
-  background:#B6B190 url("../images/bg_pagetop.gif") 30px 50% no-repeat;
+  background: #b6b190 url("../images/bg_pagetop.gif") 30px 50% no-repeat;
 }
 
 .strong {
@@ -438,6 +449,6 @@ table td {
 
 /* hotfix :shit: :shit: */
 /* http://labrid.jp/wp/iphone7%E3%81%A7twitter%E3%81%AE%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%EF%BC%88iframe%EF%BC%89%E3%81%8C%E3%81%AF%E3%81%BF%E5%87%BA%E3%81%99%E3%80%90%E8%A7%A3%E6%B1%BA%E3%80%91/ */
-.bnrL iframe { 
-  width: 740px !important; 
+.bnrL iframe {
+  width: 740px !important;
 }
