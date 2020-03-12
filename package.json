@@ -1,0 +1,25 @@
+{
+  "name": "tbsk-orch.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "lint": "prettier --write **/*.html **/*.js **/*.css",
+    "lint-check": "prettier --check **/*.html **/*.js **/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbsk-orch/tbsk-orch.com.git"
+  },
+  "author": "tbsk-orch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tbsk-orch/tbsk-orch.com/issues"
+  },
+  "homepage": "https://github.com/tbsk-orch/tbsk-orch.com#readme"
+}
