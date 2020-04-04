@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.google.com/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tbsk-orch.com/</loc>
-    <lastmod>2019-10-27</lastmod>
+    <lastmod>2020-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://tbsk-orch.com/concert.html</loc>
-    <lastmod>2019-10-27</lastmod>
+    <lastmod>2020-04-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -44,7 +44,7 @@
   </url>
   <url>
     <loc>https://tbsk-orch.com/video.html</loc>
-    <lastmod>2019-08-28</lastmod>
+    <lastmod>2020-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
