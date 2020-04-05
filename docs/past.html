@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="description" content="都内の大学生、大学院生を中心に活動するアマチュアオーケストラ、TBSK管弦楽団のホームページです。" />
     <meta name="keywords" content="TBSK,てばさき,管弦楽団,オーケストラ,アマチュア,手羽先,タバスコ,アマオケ,社会人" />
-    <meta name="viewport" content="width=1100" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
     <link rel="stylesheet" href="css/common.css" type="text/css" />
     <title>TBSK管弦楽団</title>
@@ -16,10 +16,29 @@
   <body>
     <div id="container">
       <div id="header">
-        <h1>
-          <a href="index.html"><img src="images/tbsktitle.png" alt="TBSK Top Page"/></a>
-        </h1>
-        <!-- /#menu -->
+        <div class="header-logo-menu">
+          <div id="nav-drawer">
+            <input id="nav-input" type="checkbox" class="nav-unshown" />
+            <label id="nav-open" for="nav-input"><span></span></label>
+            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+            <div id="nav-content">
+              <div class="submenu">
+                <h4>メニュー</h4>
+                <ul>
+                  <li><a href="./index.html">ホーム</a></li>
+                  <li><a href="./shokai.html">当団について</a></li>
+                  <li><a href="./concert.html">今後の演奏会</a></li>
+                  <li><a href="./past.html">過去の演奏会</a></li>
+                  <li><a href="./video.html">公開中の演奏動画・録音</a></li>
+                  <li><a href="./boshu.html">団員募集</a></li>
+                  <li><a href="./sensei.html">トレーナー紹介</a></li>
+                  <li><a href="./fanq.html">お問い合わせ</a></li>
+                </ul>
+              </div>
+            </div>
+            <a href="index.html"><img src="images/tbsktitle.png" alt="TBSK Top Page"/></a>
+          </div>
+        </div>
       </div>
       <!-- /#header -->
       <div id="contents">
@@ -175,32 +194,24 @@
           </div>
           <h3 id="c20171009">2017/10/9(月)ヨーロッパ公演2017</h3>
           <div class="concert">
-            <div class="box">
-              <div class="concert-desc">
-                <p class="font-size-lg">ハルモニーミサ/ハイドン</p>
-                <p class="font-size-lg">オペラ「月の世界」より抜粋/ハイドン</p>
-                <p>
-                  於：エスターハージー城 ウィーンホール(オーストリア・ウィーン)<br />
-                  指揮：久世武志<br />
-                </p>
-              </div>
-            </div>
+            <p class="font-size-lg">ハルモニーミサ/ハイドン</p>
+            <p class="font-size-lg">オペラ「月の世界」より抜粋/ハイドン</p>
+            <p>
+              於：エスターハージー城 ウィーンホール(オーストリア・ウィーン)<br />
+              指揮：久世武志<br />
+            </p>
           </div>
           <h3 id="c20170903">2017/9/3(日)川崎市民オペラ「こうもり」演奏会</h3>
           <div class="concert">
-            <div class="box">
-              <div class="concert-desc">
-                <p class="font-size-lg">喜歌劇「こうもり」/J.シュトラウス</p>
-                <p>
-                  於：多摩市民館 大ホール<br />
-                  指揮：久世武志<br />
-                  合唱指揮：金岡秀典<br />
-                  演出：境信博<br />
-                  管弦楽：TBSK管弦楽団<br />
-                  合唱：川崎市民オペラ合唱団<br />
-                </p>
-              </div>
-            </div>
+            <p class="font-size-lg">喜歌劇「こうもり」/J.シュトラウス</p>
+            <p>
+              於：多摩市民館 大ホール<br />
+              指揮：久世武志<br />
+              合唱指揮：金岡秀典<br />
+              演出：境信博<br />
+              管弦楽：TBSK管弦楽団<br />
+              合唱：川崎市民オペラ合唱団<br />
+            </p>
           </div>
           <h3 id="c20170423">2017/4/23(日)TBSK管弦楽団 第四回室内楽演奏会</h3>
           <div class="concert">
@@ -291,31 +302,23 @@
           </div>
           <h3 id="c20150920">2015/9/20(日)ダブルリード演奏会</h3>
           <div class="concert">
-            <div class="box">
-              <div class="concert-desc">
-                <p>
-                  ダブルリードパート(オーボエ・ファゴット)主催の演奏会を行いました。
-                </p>
-                <p>
-                  A.Stephenson「3つのファゴットとコントラファゴットのためのディヴェルティメント」<br />
-                  F.Poulenc「オーボエとピアノのためのソナタ」<br />
-                  R.Brahms「ハイドンの主題による変奏曲 変ロ長調(オーボエ・ファゴット10重奏)」等
-                </p>
-                <p>会場: 大田区民プラザ小ホール<br /></p>
-              </div>
-            </div>
+            <p>
+              ダブルリードパート(オーボエ・ファゴット)主催の演奏会を行いました。
+            </p>
+            <p>
+              A.Stephenson「3つのファゴットとコントラファゴットのためのディヴェルティメント」<br />
+              F.Poulenc「オーボエとピアノのためのソナタ」<br />
+              R.Brahms「ハイドンの主題による変奏曲 変ロ長調(オーボエ・ファゴット10重奏)」等
+            </p>
+            <p>会場: 大田区民プラザ小ホール<br /></p>
           </div>
           <h3 id="c20150628">2015/6/28(日)アンドレア・シェニエ (オペラ公演)</h3>
           <div class="concert">
-            <div class="box">
-              <div class="concert-desc">
-                <p>
-                  鎌倉オペラ様主催のオペラにて伴奏をTBSK管弦楽団が務めさせて頂きました。<br />
-                  アンドレア・シェニエ/ジョルダーノ
-                </p>
-                <p>会場: 鎌倉芸術館<br /></p>
-              </div>
-            </div>
+            <p>
+              鎌倉オペラ様主催のオペラにて伴奏をTBSK管弦楽団が務めさせて頂きました。<br />
+              アンドレア・シェニエ/ジョルダーノ
+            </p>
+            <p>会場: 鎌倉芸術館<br /></p>
           </div>
           <h3 id="c20150315">2015/3/15(日)TBSK管弦楽団 第四回定期演奏会</h3>
           <div class="concert">
