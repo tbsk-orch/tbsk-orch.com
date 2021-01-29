@@ -134,7 +134,7 @@
         const container = document.getElementById("playerContainer");
         container.innerHTML = "";
         videoIds.forEach(function(videoId) {
-          container.innerHTML += '<div class="youtube-container"><iframe class="youtube" src="https://www.youtube.com/embed/' + videoId + '" frameborder="0" allow="encrypted-media" allowfullscreen ></iframe></div>';
+          container.innerHTML += '<div class="youtube-container"><iframe class="youtube" src="https://www.youtube.com/embed/' + videoId + '" frameborder="0" allow="encrypted-media" loading="lazy" allowfullscreen ></iframe></div>';
         });
       }
     </script>
