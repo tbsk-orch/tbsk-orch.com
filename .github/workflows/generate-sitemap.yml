@@ -21,6 +21,7 @@ jobs:
         with:
           base-url-path: https://tbsk-orch.com/
           path-to-root: docs
+          include-pdf: false
           date-only: true
 
       - name: Create Pull Request
