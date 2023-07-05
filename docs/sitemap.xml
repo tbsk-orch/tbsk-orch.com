@@ -1,51 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://tbsk-orch.com/</loc>
-    <lastmod>2021-11-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://tbsk-orch.com/shokai.html</loc>
-    <lastmod>2019-06-30</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://tbsk-orch.com/concert.html</loc>
-    <lastmod>2021-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tbsk-orch.com/past.html</loc>
-    <lastmod>2016-06-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://tbsk-orch.com/sensei.html</loc>
-    <lastmod>2019-06-30</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://tbsk-orch.com/boshu.html</loc>
-    <lastmod>2017-02-13</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://tbsk-orch.com/fanq.html</loc>
-    <lastmod>2019-06-30</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://tbsk-orch.com/video.html</loc>
-    <lastmod>2020-04-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
+<url>
+<loc>https://tbsk-orch.com/</loc>
+<lastmod>2023-07-06</lastmod>
+</url>
+<url>
+<loc>https://tbsk-orch.com/boshu.html</loc>
+<lastmod>2023-07-06</lastmod>
+</url>
+<url>
+<loc>https://tbsk-orch.com/concert.html</loc>
+<lastmod>2023-07-06</lastmod>
+</url>
+<url>
+<loc>https://tbsk-orch.com/fanq.html</loc>
+<lastmod>2023-07-06</lastmod>
+</url>
+<url>
+<loc>https://tbsk-orch.com/past.html</loc>
+<lastmod>2023-07-06</lastmod>
+</url>
+<url>
+<loc>https://tbsk-orch.com/sensei.html</loc>
+<lastmod>2023-07-06</lastmod>
+</url>
+<url>
+<loc>https://tbsk-orch.com/shokai.html</loc>
+<lastmod>2023-07-06</lastmod>
+</url>
+<url>
+<loc>https://tbsk-orch.com/video.html</loc>
+<lastmod>2023-07-06</lastmod>
+</url>
 </urlset>
