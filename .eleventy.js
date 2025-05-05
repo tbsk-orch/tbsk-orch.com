@@ -14,7 +14,7 @@ module.exports = function (eleventyConfig) {
         parser: "html",
         printWidth: 500,
         tabWidth: 2,
-        lineEnding: "\n",
+        endOfLine: "lf",
         useTabs: false,
       });
     }
