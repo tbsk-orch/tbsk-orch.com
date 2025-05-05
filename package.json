@@ -6,11 +6,14 @@
   "dependencies": {
   },
   "devDependencies": {
-    "prettier": "^3.0.0"
+    "prettier": "^3.0.0",
+    "@11ty/eleventy": "^2.0.0"
   },
   "scripts": {
-    "lint": "prettier --write **/*.html **/*.js **/*.css",
-    "lint-check": "prettier --check **/*.html **/*.js **/*.css"
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "lint": "prettier --write **/*.js **/*.css **/*.njk **/_includes/**/*.njk",
+    "lint-check": "prettier --check **/*.js **/*.css **/*.njk **/_includes/**/*.njk"
   },
   "repository": {
     "type": "git",

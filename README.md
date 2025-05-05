@@ -11,7 +11,24 @@ https://tbsk-orch.com のGitHub pagesを管理するリポジトリ
 
 プルリクエストを出す際は以下の点にご留意ください。
 
-- https://tbsk-orch.com には[docs/](./docs)フォルダ以下のファイルが露出します。（ `https://tbsk-orch.com/README.md` のようなファイルがwebページ上に露出してほしくないのでこのようにしています）このフォルダ上で作業を行ってください。
-- ビルド等は（今の所）特に必要ありません。単に[docs/](./docs)フォルダにあるhtmlファイルを開けば現在デプロイされているwebページを閲覧できます。
-- PR提出時はLintを通してください。 `npm run lint` で [prettier](https://prettier.io/)による自動修正ができます。
+- [11ty](https://www.11ty.dev/)によるビルドが必要です。以下のようにビルドできるはずです。
+
+```shell
+# node.js をインストール
+# https://nodejs.org/ja/download/ の指示に従ってください
+
+# yarn をインストール
+corepack enable yarn
+
+# yarn を使って依存関係をインストール
+yarn install
+
+# ビルド
+yarn build
+
+# ビルドしたものを確認
+# dist/ フォルダに吐き出されたファイルを確認してください。
+```
+
+- PR提出時はLintを通してください。 `yarn lint` で [prettier](https://prettier.io/)による自動修正ができます。
 - PR提出すると[netlify](https://www.netlify.com/)によるステージング環境が立ちますので、修正がうまくいっているかご確認ください。

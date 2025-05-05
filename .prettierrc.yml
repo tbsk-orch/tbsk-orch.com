@@ -1,2 +1,7 @@
 printWidth: 500
 endOfLine: lf
+
+overrides:
+  - files: "*.njk"
+    options:
+      parser: html
