@@ -21,12 +21,6 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Persist Eleventy .cache
-        uses: actions/cache@v3
-        with:
-          path: ./.cache
-          key: ${{ runner.os }}-eleventy-fetch-cache
-
       - run: yarn install
       - run: yarn build
 
