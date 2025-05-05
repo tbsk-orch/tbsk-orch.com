@@ -12,8 +12,8 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "lint": "prettier --write **/*.html **/*.js **/*.css **/*.njk src/_includes/**/*.njk",
-    "lint-check": "prettier --check **/*.html **/*.js **/*.css **/*.njk src/_includes/**/*.njk"
+    "lint": "prettier --write **/*.js **/*.css **/*.njk **/_includes/**/*.njk",
+    "lint-check": "prettier --check **/*.js **/*.css **/*.njk **/_includes/**/*.njk"
   },
   "repository": {
     "type": "git",
