@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    {% if noindex %}
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    {% else %}
+    <meta name="description" content='{{ description | default(\"都内の大学生、大学院生を中心に活動するアマチュアオーケストラ、TBSK管弦楽団のホームページです。\") }}' />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@tbsk_orchestra" />
+    <meta property="og:title" content="TBSK管弦楽団" />
+    <meta property="og:description" content='{{ description | default(\"都内の大学生、大学院生を中心に活動するアマチュアオーケストラ、TBSK管弦楽団のホームページです。\") }}' />
+    <meta property="og:image" content="https://tbsk-orch.com/images/tbsklogo.png" />
+    <meta property="og:url" content="https://tbsk-orch.com{{ page.filePathStem }}.html" />
+    {% endif %}
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <link href="/css/common.css" rel="stylesheet" type="text/css" />
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-VXMZKER1HN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-VXMZKER1HN");
+    </script>
+    <title>TBSK管弦楽団 {{ title }}</title>
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">{% include "partials/header.njk" %}</header>
+      <main id="contents">
+        <div id="conR">
+          {{ content | safe }} {% if not noindex %}
+          <div>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Ftbsk-orch.com{{ page.filePathStem | urlencode }}.html&layout=button&size&width=102&height=20&appId" width="102" height="20" style="border: none; overflow: hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          </div>
+          {% endif %}
+        </div>
+        <div id="conL">{% include "partials/submenu.njk" %} {% include "partials/twitter_timeline.njk" %}</div>
+      </main>
+      <footer id="footer">{% include "partials/footer.njk" %}</footer>
+    </div>
+    <div id="pageTop">
+      <a href="#">Page Top</a>
+    </div>
+  </body>
+</html>
