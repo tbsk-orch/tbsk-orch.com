@@ -16,7 +16,7 @@
   conductor: 久世武志
   datetime: 2024年8月
   images:
-    - /images/pnf/now_printing.jpg
+    - /images/tbsklogo.png
   program:
     - わが祖国/B.スメタナ
   venue_link: ''
@@ -312,7 +312,7 @@
   datetime: 2018年8月
   conductor: 久世武志
   images:
-    - /images/pnf/now_printing.jpg
+    - /images/tbsklogo.png
   program:
     - 交響曲第8番/ドヴォルザーク
     - わが祖国/スメタナ
@@ -357,7 +357,7 @@
   datetime: 2027年10月9日
   conductor: 久世武志
   images:
-    - /images/pnf/now_printing.jpg
+    - /images/tbsklogo.png
   program:
     - ハルモニーミサ/ハイドン
     - オペラ「月の世界」より抜粋/ハイドン
@@ -454,7 +454,7 @@
   title: 2015/9/20(日)ダブルリード演奏会
   datetime: 2015年9月20日(日)
   images:
-    - /images/pnf/now_printing.jpg
+    - /images/tbsklogo.png
   program:
     - |
       A.Stephenson「3つのファゴットとコントラファゴットのためのディヴェルティメント」
@@ -468,7 +468,7 @@
   datetime: 2015年6月28日(日) 18:00開演
   conductor: 久世武志
   images:
-    - /images/pnf/now_printing.jpg
+    - /images/tbsklogo.png
   program:
     - アンドレア・シェニエ/U.ジョルダーノ
   venue_link: https://kamakura-kpac.jp/
@@ -551,7 +551,7 @@
   venue_link: https://megurokuchushokigyocenter.jp/
   venue_name: 目黒区中小企業センターホール
 - id: c20130310
-  title: 2013/3/10(日)TBSK管弦楽団 第一回定期演奏会
+  title: 2013/3/10(日)TBSK管弦楽団 第1回定期演奏会
   datetime: 2013年3月10日(日) 13:30開場 14:00開演
   conductor: 久世武志
   images:
