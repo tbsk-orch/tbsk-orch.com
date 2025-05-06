@@ -24,10 +24,9 @@ corepack enable yarn
 yarn install
 
 # ビルド
-yarn build
+yarn start
 
-# ビルドしたものを確認
-# dist/ フォルダに吐き出されたファイルを確認してください。
+# http://localhost:8080/ で確認
 ```
 
 - PR提出時はLintを通してください。 `yarn lint` で [prettier](https://prettier.io/)による自動修正ができます。

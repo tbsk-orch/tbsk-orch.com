@@ -1,0 +1,27 @@
+- id: c20250721
+  title: 2025/07/21 第16回TBSK管弦楽団定期演奏会
+  conductor: 佐々木新平
+  datetime: 2025年7月21日(月・祝) 12:30開場 13:30開演
+  images:
+    - /images/pnf/16th_1.jpg
+    - /images/pnf/16th_2.jpg
+  program:
+    - 交響曲第15番/D.ショスタコーヴィチ
+    - 交響詩「英雄の生涯」/R.シュトラウス
+  venue_link: https://yokohama-minatomiraihall.jp
+  venue_name: 横浜みなとみらいホール 大ホール
+  other_desc: |
+    入場料500円・全席自由
+    チケット情報などはこちら:
+    <a href="https://teket.jp/369/48561"><img width="100px" src="/images/teket_logo.png" alt="teket へのリンク画像" /></a>
+  notes: |
+    <p>今回は当団で2度目の客演指揮となる佐々木新平先生を招聘し、「人生の振り返り」をテーマとした演奏会を開催いたします。</p>
+
+- id: c20250800
+  title: 2025年8月中旬 イタリア演奏旅行
+  conductor: 久世武志
+  datetime: 2025年8月10日(日)～8月15日(金)
+  images:
+    - /images/tbsklogo.png
+  program:
+    - 曲目未定

@@ -5,13 +5,13 @@
     {% if noindex %}
     <meta name="robots" content="noindex, nofollow, noarchive" />
     {% else %}
-    <meta name="description" content='{{ description | default(\"都内の大学生、大学院生を中心に活動するアマチュアオーケストラ、TBSK管弦楽団のホームページです。\") }}' />
+    <meta name="description" content='{{ description | default("都内の大学生、大学院生を中心に活動するアマチュアオーケストラ、TBSK管弦楽団のホームページです。") }}' />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@tbsk_orchestra" />
     <meta property="og:title" content="TBSK管弦楽団" />
-    <meta property="og:description" content='{{ description | default(\"都内の大学生、大学院生を中心に活動するアマチュアオーケストラ、TBSK管弦楽団のホームページです。\") }}' />
-    <meta property="og:image" content="https://tbsk-orch.com/images/tbsklogo.png" />
-    <meta property="og:url" content="https://tbsk-orch.com{{ page.filePathStem }}.html" />
+    <meta property="og:description" content='{{ description | default("都内の大学生、大学院生を中心に活動するアマチュアオーケストラ、TBSK管弦楽団のホームページです。") }}' />
+    <meta property="og:image" content='{{ og_image | default("{{ site.url }}images/tbsklogo.png") }}' />
+    <meta property="og:url" content="{{  site.url }}{{ page.filePathStem }}.html" />
     {% endif %}
     <meta content="width=device-width,initial-scale=1" name="viewport" />
     <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
@@ -38,7 +38,7 @@
           <div>
             <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Ftbsk-orch.com{{ page.filePathStem | urlencode }}.html&layout=button&size&width=102&height=20&appId" width="102" height="20" style="border: none; overflow: hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            <iframe src="https://www.facebook.com/plugins/share_button.php?href={{ site.url | urlencode }}{{ page.filePathStem | urlencode }}.html&layout=button&size&width=102&height=20&appId" width="102" height="20" style="border: none; overflow: hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
           </div>
           {% endif %}
         </div>
