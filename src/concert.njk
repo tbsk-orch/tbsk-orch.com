@@ -1,29 +1,36 @@
 ---
 title: 今後の演奏会のご案内
 layout: layouts/base.njk
-description: 次回の演奏会の日程・曲目・チケット情報
 permalink: concert.html
+eleventyComputed:
+  description: 次回の演奏会({{ ((upcoming | first)).title }})の日程・曲目・チケット情報
+  og_image: "{{ site.url }}{{ ((upcoming | first).images) | first }}"
 ---
 
 <h2>今後の演奏会のご案内</h2>
-<h3 id="c20250721">2025/07/21 第16回TBSK管弦楽団定期演奏会</h3>
+{% for concert in upcoming %}
+<h3 id="{{ concert.id }}">{{ concert.title }}</h3>
 <div class="concert">
   <div class="box">
     <div style="width: 300px">
-      <a href="./images/pnf/16th_1.jpg"> <img src="./images/pnf/16th_1.jpg" width="300px" alt="チラシ画像" /></a>
-      <a href="./images/pnf/16th_2.jpg"> <img src="./images/pnf/16th_2.jpg" width="300px" alt="チラシ画像" /></a>
+      {% for image in concert.images %}
+      <a href="{{ image }}"><img src="{{ image }}" width="300px" alt="{{ concert.title }}のチラシ画像" /></a>
+      {% endfor %}
     </div>
     <div class="concert-desc">
-      <p class="font-size-lg">交響曲第15番/D.ショスタコーヴィチ</p>
-      <p class="font-size-lg">交響詩「英雄の生涯」/R.シュトラウス</p>
+      {% for piece in concert.program %}
+      <p class="font-size-lg">{{ piece | nl2br | safe }}</p>
+      {% endfor %}
       <p>
-        於：<a href="https://yokohama-minatomiraihall.jp/">横浜みなとみらいホール 大ホール</a><br />
-        指揮：佐々木新平<br />
-        日時：2025年7月21日(月・祝) 12:30開場 13:30開演<br />
-        入場料500円・全席自由<br />
-        チケット情報などはこちら: <a href="https://teket.jp/369/48561">https://teket.jp/369/48561</a>
+        {% if concert.venue_link %} 於：<a href="{{ concert.venue_link }}">{{ concert.venue_name }}</a><br />
+        {% elif concert.venue_name %} 於：{{ concert.venue_name }}<br />
+        {% endif %} {% if concert.conductor %} 指揮：{{ concert.conductor }}<br />
+        {% endif %} 日時：{{ concert.datetime | nl2br | safe }}<br />
+        {% if concert.other_desc %} {{ concert.other_desc | nl2br | safe }}<br />
+        {% endif %}
       </p>
     </div>
   </div>
-  <p>今回は当団で2度目の客演指揮となる佐々木新平先生を招聘し、「人生の振り返り」をテーマとした演奏会を開催いたします。</p>
+  {{ concert.notes | safe }}
 </div>
+{% endfor %}
