@@ -10,7 +10,7 @@
     <meta name="twitter:site" content="@tbsk_orchestra" />
     <meta property="og:title" content="TBSK管弦楽団" />
     <meta property="og:description" content='{{ description | default("都内の大学生、大学院生を中心に活動するアマチュアオーケストラ、TBSK管弦楽団のホームページです。") }}' />
-    <meta property="og:image" content='{{ og_image | default("{{ site.url }}images/tbsklogo.png") }}' />
+    <meta property="og:image" content='{{ og_image | default( site.url +"/images/tbsklogo.png") }}' />
     <meta property="og:url" content="{{  site.url }}{{ page.filePathStem }}.html" />
     {% endif %}
     <meta content="width=device-width,initial-scale=1" name="viewport" />
