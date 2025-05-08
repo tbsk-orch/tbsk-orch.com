@@ -12,7 +12,7 @@ jobs:
         with:
           fail: true
           jobSummary: true
-          args: --verbose --no-progress './**/*.md' './**/*.html' ./**/*.njk ./**/*.yaml
+          args: --verbose --no-progress './**/*.md' './**/*.html' './**/*.njk' './**/*.yaml'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
   lint:
