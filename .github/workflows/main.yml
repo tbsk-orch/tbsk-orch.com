@@ -8,10 +8,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.5.4
+        uses: lycheeverse/lychee-action@v2
         with:
           fail: true
           jobSummary: true
+          args: --insecure --verbose --no-progress './**/*.md' './**/*.html' './**/*.njk' './**/*.yaml'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
   lint:
