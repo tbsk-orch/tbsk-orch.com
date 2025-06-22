@@ -254,7 +254,7 @@
   venue_link: https://www.towerhall.jp/
   venue_name: タワーホール船堀大ホール
 - id: c20190430
-  title: 2019/4/30（火祝） 2019/5/1 （水祝）TBSKフェスティバル2019
+  title: 2019/04/30（火祝） 2019/05/01 （水祝）TBSKフェスティバル2019
   datetime: |
     
     1日目昼の部: 管楽器中心の室内楽公演（4/30 13:00開場 13:20開演）
@@ -295,7 +295,7 @@
   venue_link: https://www.dai-ichi-seimei-hall.jp/
   venue_name: 第一生命ホール
 - id: c20181209
-  title: 2018/12/9（日） 第九回定期演奏会
+  title: 2018/12/09（日） 第九回定期演奏会
   datetime: 2018年12月9日(日) 13:00開場 13:30開演
   conductor: 久世武志
   images:
@@ -316,7 +316,7 @@
     - 交響曲第8番/ドヴォルザーク
     - わが祖国/スメタナ
 - id: c20180716
-  title: 2018/7/16（月祝）TBSK管弦楽団 第5回室内楽演奏会
+  title: 2018/07/16（月祝）TBSK管弦楽団 第5回室内楽演奏会
   datetime: 2018年7月16日(月祝) 12:40開場 13:00開演
   images:
     - /images/pnf/ens5.jpg
@@ -328,7 +328,7 @@
   venue_link: https://salvia.hall-info.jp/
   venue_name: 横浜市鶴見区民文化センター　サルビアホール
 - id: c20180602
-  title: 2018/6/2（土）TBSK室内管弦楽団 第二回演奏会
+  title: 2018/06/02（土）TBSK室内管弦楽団 第二回演奏会
   datetime: 2018年6月2日(土) 17:00開場 17:30開演
   conductor: 久世武志
   images:
@@ -340,7 +340,7 @@
   venue_link: https://www.dai-ichi-seimei-hall.jp/
   venue_name: 第一生命ホール
 - id: c20180211
-  title: 2018/2/11(月)第八回定期演奏会
+  title: 2018/02/11(月)第八回定期演奏会
   datetime: 2018年2月11日(日) 13:00開場 13:30開演
   conductor: 久世武志
   images:
@@ -352,7 +352,7 @@
   venue_link: https://www.kawasaki-sym-hall.jp/
   venue_name: ミューザ川崎シンフォニーホール
 - id: c20171009
-  title: 2017/10/9(月)ヨーロッパ公演2017
+  title: 2017/10/09(月)ヨーロッパ公演2017
   datetime: 2027年10月9日
   conductor: 久世武志
   images:
@@ -362,7 +362,7 @@
     - オペラ「月の世界」より抜粋/ハイドン
   venue_name: エスターハージー城 ウィーンホール(オーストリア・ウィーン)
 - id: c20170903
-  title: 2017/9/3(日)川崎市民オペラ「こうもり」演奏会
+  title: 2017/09/03(日)川崎市民オペラ「こうもり」演奏会
   datetime: 2017年9月3日(日) 13:30開場 14:00開演
   conductor: 久世武志
   program:
@@ -376,7 +376,7 @@
   venue_name: 川崎市多摩市民館大ホール
   notes: <a href="https://kawasakiopera.wixsite.com/home/%E8%A4%87%E8%A3%BD-%E6%9C%AC%E5%85%AC%E6%BC%942018">川崎市民オペラ</a>のページをご覧ください。
 - id: c20170423
-  title: 2017/4/23(日)TBSK管弦楽団 第4回室内楽演奏会
+  title: 2017/04/23(日)TBSK管弦楽団 第4回室内楽演奏会
   datetime: 2017年4月23日(日) 13:00開場 13:30開演
   images:
     - /images/pnf/ens4.jpg
@@ -388,7 +388,7 @@
   venue_link: https://megurokuchushokigyocenter.jp/
   venue_name: 目黒区中小企業センターホール
 - id: c20170108
-  title: 2017/1/8(日)TBSK管弦楽団 第七回定期演奏会
+  title: 2017/01/08(日)TBSK管弦楽団 第七回定期演奏会
   datetime: 2017年1月8日(日) 13:30開場 14:00開演
   conductor: 久世武志
   images:
@@ -400,7 +400,7 @@
   venue_link: https://yokohama-minatomiraihall.jp/
   venue_name: 横浜みなとみらいホール 大ホール
 - id: c20161002
-  title: 2016/10/2(日)TBSK室内管弦楽団 第1回演奏会
+  title: 2016/10/02(日)TBSK室内管弦楽団 第1回演奏会
   datetime: 2016年10月2日(日) 13:30開場 14:00開演
   conductor: 久世武志
   images:
@@ -411,7 +411,7 @@
     - 交響曲第41番「ジュピター」/モーツァルト
   venue_name: 大田区民センター 音楽ホール
 - id: c20160814
-  title: 2016/8/14(日)TBSK管弦楽団 第6回定期演奏会
+  title: 2016/08/14(日)TBSK管弦楽団 第6回定期演奏会
   datetime: 2016年8月14日(日) 13:00開場 13:30開演
   conductor: 久世武志
   images:
@@ -423,7 +423,7 @@
   venue_link: https://www.kawasaki-sym-hall.jp/
   venue_name: ミューザ川崎シンフォニーホール
 - id: c20160501
-  title: 2016/5/1(日)TBSK管弦楽団 第3回室内楽演奏会
+  title: 2016/05/01(日)TBSK管弦楽団 第3回室内楽演奏会
   datetime: 2016年5月1日(日) 13:00開場 13:30開演
   images:
     - /images/pnf/ens3.png
@@ -450,7 +450,7 @@
   venue_name: ミューザ川崎シンフォニーホール
   other_desc: 'ホルン独奏: イルジー・ハヴリーク氏(チェコ・フィルハーモニー管弦楽団ホルン奏者)'
 - id: c20150920
-  title: 2015/9/20(日)ダブルリード演奏会
+  title: 2015/09/20(日)ダブルリード演奏会
   datetime: 2015年9月20日(日)
   images:
     - /images/tbsklogo.png
@@ -463,7 +463,7 @@
   venue_link: https://www.ota-bunka.or.jp/facilities/plaza
   venue_name: 大田区民プラザ 小ホール
 - id: c20150628
-  title: 2015/6/28(日)アンドレア・シェニエ (オペラ公演)
+  title: 2015/06/28(日)アンドレア・シェニエ (オペラ公演)
   datetime: 2015年6月28日(日) 18:00開演
   conductor: 久世武志
   images:
@@ -474,7 +474,7 @@
   venue_name: 鎌倉芸術館大ホール
   notes: <a href="https://opera.tosei-showa-music.ac.jp/search/Record/PROD-11413">詳細はこちら</a>
 - id: c20150315
-  title: 2015/3/15(日)TBSK管弦楽団 第4回定期演奏会
+  title: 2015/03/15(日)TBSK管弦楽団 第4回定期演奏会
   datetime: 2015年3月15日(日) 13:30開場 14:00開演
   conductor: 久世武志
   images:
@@ -487,7 +487,7 @@
   venue_link: https://www.regasu-shinjuku.or.jp/bunka-center/
   venue_name: 新宿文化センター 大ホール
 - id: c20141108
-  title: 2014/11/8(土)TBSK管弦楽団 第2回室内楽演奏会
+  title: 2014/11/08(土)TBSK管弦楽団 第2回室内楽演奏会
   datetime: 2014年11月8日(土) 16:30開場 17:00開演
   images:
     - /images/pnf/ens2.jpg
@@ -500,7 +500,7 @@
   venue_link: https://omori-sc.jp/
   venue_name: 大森スポーツセンター
 - id: c20140608
-  title: 2014/6/8(日)TBSK管弦楽団 第3回定期演奏会
+  title: 2014/06/08(日)TBSK管弦楽団 第3回定期演奏会
   datetime: 2014年6月8日(日) 13:30開場 14:00開演
   conductor: 久世武志
   images:
@@ -512,7 +512,7 @@
   venue_link: https://www.parthenon.or.jp/
   venue_name: パルテノン多摩
 - id: c20140222
-  title: 2014/2/22(土)TBSK&SWSジョイントコンサート
+  title: 2014/02/22(土)TBSK&SWSジョイントコンサート
   datetime: 2014年2月22日(土) 17:00開場 17:30開演
   images:
     - /images/pnf/tbsksws.jpg
@@ -538,7 +538,7 @@
   venue_link: https://www.ota-bunka.or.jp/facilities/aprico
   venue_name: 大田区民ホールアプリコ 大ホール
 - id: c20130720
-  title: 2013/7/20(土)TBSK管弦楽団 第2回室内楽演奏会
+  title: 2013/07/20(土)TBSK管弦楽団 第2回室内楽演奏会
   datetime: 2013年7月20日(土) 17:40開場 18:00開演
   images:
     - /images/pnf/ens1.jpg
@@ -550,7 +550,7 @@
   venue_link: https://megurokuchushokigyocenter.jp/
   venue_name: 目黒区中小企業センターホール
 - id: c20130310
-  title: 2013/3/10(日)TBSK管弦楽団 第1回定期演奏会
+  title: 2013/03/10(日)TBSK管弦楽団 第1回定期演奏会
   datetime: 2013年3月10日(日) 13:30開場 14:00開演
   conductor: 久世武志
   images:
