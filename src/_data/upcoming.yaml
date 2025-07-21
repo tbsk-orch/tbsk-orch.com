@@ -25,3 +25,33 @@
     - /images/tbsklogo.png
   program:
     - 曲目未定
+
+- id: c20251200
+  title: 2025/12/14 第17回TBSK管弦楽団定期演奏会
+  conductor: 久世武志
+  datetime: 2025年12月14日(日) 12:30開場 13:30開演
+  images:
+    - /images/pnf/now_printing.jpg
+  program:
+    - 曲目未定
+  venue_link: https://yokohama-minatomiraihall.jp
+  venue_name: 横浜みなとみらいホール 大ホール
+  other_desc: |
+    入場料500円・全席自由
+    詳細は後日お知らせいたします
+  notes: |
+    <p>第17回定期演奏会の詳細は後日発表いたします。</p>
+
+- id: c20260125
+  title: 2026/01/25 第5回室内管弦楽団演奏会
+  conductor: 平川範幸
+  datetime: 2026年1月25日(土) 13:15開場 14:00開演
+  images:
+    - /images/pnf/now_printing.jpg
+  program:
+    - 曲目未定
+  venue_link: https://www.dai-ichi-seimei-hall.jp/
+  venue_name: 第一生命ホール（晴海トリトンスクエア内）
+  other_desc: |
+    入場料500円・全席自由
+    詳細は後日お知らせいたします
