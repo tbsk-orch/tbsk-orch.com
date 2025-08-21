@@ -1,3 +1,4 @@
 https://twitter.com/.*
 https://www.instagram.com/.*
 https://www.youtube.com/embed/.*
+http://localhost:*
