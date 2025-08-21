@@ -1,3 +1,16 @@
+- id: c20250800
+  title: 2025年8月中旬 イタリア演奏旅行
+  conductor: 久世武志
+  datetime: 2025年8月10日(日)～8月15日(金)
+  venue_name: ジョヴァンニ・パオロ2世広場（イタリア オルベテッロ）
+  images:
+    - /images/pnf/italy_2025.jpg
+  program:
+    - ボレロ/M.ラヴェル
+    - 他
+  other_desc: |
+    <a href="https://orbetellopianofestival.it/tbsk-orchestra-meets-orbetello-piazza-giovanni-paolo-ii-orbetello/">8月12日のコンサートの詳細</a>
+    <a href="https://orbetellopianofestival.it/tbsk-tolkyo-e-danylo-saienko-piazza-giovanni-paolo-ii-orbetello/">8月13日のコンサートの詳細</a>
 - id: c20250721
   title: 2025/07/21 第16回TBSK管弦楽団定期演奏会
   conductor: 佐々木新平
