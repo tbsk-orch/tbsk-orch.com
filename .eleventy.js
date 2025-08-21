@@ -1,7 +1,6 @@
 const prettier = require("prettier");
 const yaml = require("js-yaml");
-const fs = require("fs");
-const path = require("path");
+const { execSync } = require("child_process");
 
 const passThroughPaths = ["src/js", "src/css", "src/images", "src/favicon.ico", "src/apple-touch-icon.png", "src/CNAME"];
 
@@ -11,21 +10,29 @@ module.exports = function (eleventyConfig) {
   }
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
-  // Add computed data to get file modification times
+  // Add computed data to get file commit times
   eleventyConfig.addGlobalData("eleventyComputed", {
     lastModified: (data) => {
       try {
         // Get the actual input file path
         const inputPath = data.page.inputPath;
         if (inputPath) {
-          // Get file stats and return modification time
-          const stats = fs.statSync(inputPath);
-          return stats.mtime;
+          // Get the last commit date for this file using Git
+          const gitCommand = `git log -1 --format="%ad" --date=iso -- "${inputPath}"`;
+          const result = execSync(gitCommand, { 
+            encoding: 'utf-8', 
+            cwd: process.cwd(),
+            stdio: ['pipe', 'pipe', 'pipe']
+          }).trim();
+          
+          if (result) {
+            return new Date(result);
+          }
         }
       } catch (error) {
-        console.warn(`Could not get modification time for ${data.page.inputPath}:`, error.message);
+        console.warn(`Could not get commit time for ${data.page.inputPath}:`, error.message);
       }
-      // Fallback to page date if file stats unavailable
+      // Fallback to page date if Git command fails
       return data.page.date;
     },
   });
