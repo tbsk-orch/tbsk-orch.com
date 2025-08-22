@@ -10,7 +10,7 @@ function getGitCommitTimestamp(filePath) {
     const output = execSync(`git log --format="%ci" -n 1 -- "${filePath}"`, { encoding: "utf8" });
     return output.trim() ? new Date(output.trim()) : new Date();
   } catch (error) {
-    console.warn(`Could not get git timestamp for ${filePath}, using current date`);
+    console.warn(`Could not get git timestamp for ${filePath}, using current date. Error:`, error);
     return new Date();
   }
 }
