@@ -25,24 +25,21 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addGlobalData("eleventyComputed", {
     sitemapLastmod: (data) => {
       const inputPath = data.page.inputPath;
+      const templateTimestamp = getGitCommitTimestamp(inputPath);
 
-      // For concert.html, consider both concert.njk and upcoming.yaml
-      if (inputPath.includes("concert.njk")) {
-        const concertTime = getGitCommitTimestamp("src/concert.njk");
-        const upcomingTime = getGitCommitTimestamp("src/_data/upcoming.yaml");
-        return concertTime > upcomingTime ? concertTime : upcomingTime;
+      switch (inputPath) {
+        case "./src/concert.njk":
+          // For concert.html, consider both concert.njk and upcoming.yaml
+          const upcomingTimestamp = getGitCommitTimestamp("src/_data/upcoming.yaml");
+          return templateTimestamp > upcomingTimestamp ? templateTimestamp : upcomingTimestamp;
+        case "./src/past.njk":
+          // For past.html, consider both past.njk and past.yaml
+          const pastTimestamp = getGitCommitTimestamp("src/_data/past.yaml");
+          return templateTimestamp > pastTimestamp ? templateTimestamp : pastTimestamp;
+        default:
+          // For all other pages, just use the template timestamp
+          return templateTimestamp;
       }
-
-      // For past.html, consider both past.njk and past.yaml
-      if (inputPath.includes("past.njk")) {
-        const pastTime = getGitCommitTimestamp("src/past.njk");
-        const pastDataTime = getGitCommitTimestamp("src/_data/past.yaml");
-        return pastTime > pastDataTime ? pastTime : pastDataTime;
-      }
-
-      // For all other pages, use their template file's commit timestamp
-      const relativePath = inputPath.replace("./", "");
-      return getGitCommitTimestamp(relativePath);
     },
   });
 
