@@ -1,6 +1,6 @@
 # tbsk-orch.com
 
-![CI](https://github.com/tbsk-orch/tbsk-orch.com/workflows/CI/badge.svg)
+[![Deploy to GitHub Pages](https://github.com/tbsk-orch/tbsk-orch.com/actions/workflows/deploy-gh-pages.yml/badge.svg)](https://github.com/tbsk-orch/tbsk-orch.com/actions/workflows/deploy-gh-pages.yml)
 
 https://tbsk-orch.com のGitHub pagesを管理するリポジトリ
 
