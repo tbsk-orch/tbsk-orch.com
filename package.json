@@ -3,18 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "",
-  "dependencies": {
-    "js-yaml": "^4.1.1"
-  },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
+    "patch-package": "^8.0.1",
+    "postinstall-postinstall": "^2.1.0",
     "prettier": "^3.0.0"
+  },
+  "resolutions": {
+    "js-yaml": "^4.1.1"
   },
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
     "lint": "prettier --write **/*.js **/*.css **/*.njk **/_includes/**/*.njk",
-    "lint-check": "prettier --check **/*.js **/*.css **/*.njk **/_includes/**/*.njk"
+    "lint-check": "prettier --check **/*.js **/*.css **/*.njk **/_includes/**/*.njk",
+    "postinstall": "patch-package"
   },
   "repository": {
     "type": "git",
