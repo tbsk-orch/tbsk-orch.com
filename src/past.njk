@@ -29,6 +29,8 @@ eleventyComputed:
         {% endif %} {% if concert.conductor %} 指揮：{{ concert.conductor }}<br />
         {% endif %} 日時：{{ concert.datetime | nl2br | safe }}<br />
         {% if concert.other_desc %} {{ concert.other_desc | nl2br | safe }}<br />
+        {% endif %} {% if concert.encore %} アンコール： {% for piece in concert.encore %} {{ piece | nl2br | safe }}{% if not loop.last %} /{% endif %} {% endfor %}
+        <br />
         {% endif %}
       </p>
     </div>
