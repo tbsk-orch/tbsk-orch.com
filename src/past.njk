@@ -22,7 +22,9 @@ eleventyComputed:
     <div class="concert-desc">
       {% for piece in concert.program %}
       <p class="font-size-lg">{{ piece | nl2br | safe }}</p>
-      {% endfor %}
+      {% endfor %} {% if concert.encore %}
+      <p class="font-size-lg">アンコール： {% for piece in concert.encore %} {{ piece | nl2br | safe }}{% if not loop.last %} /{% endif %} {% endfor %}</p>
+      {% endif %}
       <p>
         {% if concert.venue_link %} 於：<a href="{{ concert.venue_link }}">{{ concert.venue_name }}</a><br />
         {% elif concert.venue_name %} 於：{{ concert.venue_name }}<br />
