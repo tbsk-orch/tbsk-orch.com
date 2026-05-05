@@ -14,20 +14,17 @@ https://tbsk-orch.com のGitHub pagesを管理するリポジトリ
 - [11ty](https://www.11ty.dev/)によるビルドが必要です。以下のようにビルドできるはずです。
 
 ```shell
-# node.js をインストール
-# https://nodejs.org/ja/download/ の指示に従ってください
+# bun をインストール
+# https://bun.sh/docs/installation の指示に従ってください
 
-# yarn をインストール
-corepack enable yarn
-
-# yarn を使って依存関係をインストール
-yarn install
+# bun を使って依存関係をインストール
+bun install
 
 # ビルド
-yarn start
+bun start
 
 # http://localhost:8080/ で確認
 ```
 
-- PR提出時はLintを通してください。 `yarn lint` で [prettier](https://prettier.io/)による自動修正ができます。
+- PR提出時はLintを通してください。 `bun lint` で [prettier](https://prettier.io/)による自動修正ができます。
 - PR提出すると[netlify](https://www.netlify.com/)によるステージング環境が立ちますので、修正がうまくいっているかご確認ください。
