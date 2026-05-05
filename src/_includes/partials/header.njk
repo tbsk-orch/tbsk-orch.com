@@ -1,10 +1,10 @@
-<div class="header-logo-menu">
+<div class="flex flex-row">
   {# 小画面用のハンバーガーメニュー #}
   <div id="nav-drawer">
     <input id="nav-input" type="checkbox" class="nav-unshown" />
     <label id="nav-open" for="nav-input"><span></span></label>
     <label class="nav-unshown" id="nav-close" for="nav-input"></label>
     <div id="nav-content">{% include "partials/submenu.njk" %}</div>
-    <a href="./index.html"><img src="/images/tbsktitle.png" alt="TBSK Top Page" /></a>
+    <a href="./index.html"><img src="/images/tbsktitle.png" alt="TBSK Top Page" class="max-w-[80%] align-middle" /></a>
   </div>
 </div>

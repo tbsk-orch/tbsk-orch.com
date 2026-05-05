@@ -8,11 +8,12 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
+    "@tailwindcss/cli": "^4.2.4",
     "prettier": "^3.0.0"
   },
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy",
+    "start": "tailwindcss -i ./src/css/input.css -o ./src/css/common.css --watch & eleventy --serve",
+    "build": "tailwindcss -i ./src/css/input.css -o ./src/css/common.css && eleventy",
     "lint": "prettier --write **/*.js **/*.css **/*.njk **/_includes/**/*.njk",
     "lint-check": "prettier --check **/*.js **/*.css **/*.njk **/_includes/**/*.njk"
   },
