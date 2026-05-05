@@ -30,10 +30,10 @@
     <title>TBSK管弦楽団 {{ title }}</title>
   </head>
   <body>
-    <div id="container">
-      <header id="header">{% include "partials/header.njk" %}</header>
-      <main id="contents">
-        <div id="conR">
+    <div class="w-full max-w-[1100px] mx-auto mt-2.5 bg-white rounded-[10px]">
+      <header class="relative w-[94%] py-[30px] leading-none mx-auto">{% include "partials/header.njk" %}</header>
+      <main class="w-[94%] py-2.5 mx-auto flex flex-col md:flex-row">
+        <div id="conR" class="w-full md:w-[69%] md:order-2">
           {{ content | safe }} {% if not noindex %}
           <div>
             <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
@@ -42,11 +42,11 @@
           </div>
           {% endif %}
         </div>
-        <div id="conL">{% include "partials/submenu.njk" %} {% include "partials/twitter_timeline.njk" %}</div>
+        <div class="w-full md:w-[30%] md:order-1 border-t border-[#ddd] mt-5 pt-5 md:border-t-0 md:mt-0 md:pt-0">{% include "partials/submenu.njk" %} {% include "partials/twitter_timeline.njk" %}</div>
       </main>
-      <footer id="footer">{% include "partials/footer.njk" %}</footer>
+      <footer class="w-[94%] mx-auto">{% include "partials/footer.njk" %}</footer>
     </div>
-    <div id="pageTop">
+    <div id="pageTop" class="fixed right-5 bottom-5 tracking-[1px]">
       <a href="#">Page Top</a>
     </div>
   </body>
