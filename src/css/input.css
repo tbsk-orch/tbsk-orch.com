@@ -13,6 +13,11 @@
 
   --font-sans: "Hiragino Kaku Gothic Pro", HiraKakuPro-W3, "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", verdana, sans-serif;
   --font-serif: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HGP明朝E", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+
+  /* Layout */
+  --layout-container-max-width: 1100px;
+  --layout-sidebar-width: 30%;
+  --layout-content-width: 69%;
 }
 
 @layer base {
@@ -317,7 +322,9 @@
     margin: 0 15px 10px 0;
   }
 
-  /* hotfix: prevent iframe overflow on iPhone */
+  /* hotfix: Twitter timeline iframe overflows on iPhone 7
+   * Forcing a fixed width prevents the widget from exceeding its container.
+   * See: https://rui-log.com/css-hamburger-menu/ for original context. */
   .bnrL iframe {
     width: 740px !important;
   }
