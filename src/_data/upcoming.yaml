@@ -1,15 +1,17 @@
 - id: c20260811
   title: 2026年8月11日(火・祝) 第17回TBSK管弦楽団定期演奏会
   conductor: 山上紘生
-  datetime: 2026年8月11日(火・祝) 昼公演
+  datetime: 2026年8月11日(火・祝)  12:30開場 13:30開演
   venue_name: 横浜みなとみらいホール 大ホール
   venue_link: https://yokohama-minatomiraihall.jp/
   images:
-    - /images/tbsklogo.png
+    - /images/pnf/17th_1.jpg
+    - /images/pnf/17th_2.jpg
   program:
     - 組曲『中国の不思議な役人』/B.バルトーク
     - シンフォニエッタ 『ラ・ホッジャ』/B.マルティヌー
     - 交響曲第1番『巨人』/G.マーラー
   other_desc: |
-    入場料500円・全席指定
-    チケットの購入方法は、準備が整い次第アナウンスいたします。
+    入場料500円・全席自由
+    チケット情報などはこちら:
+    <a href="https://teket.jp/369/70496"><img width="100px" src="/images/teket_logo.png" alt="teket へのリンク画像" /></a>
