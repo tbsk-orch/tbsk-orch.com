@@ -559,3 +559,7 @@ table td {
     display: none;
   }
 }
+
+.tb_sb__b_wrapper {
+  display: none !important;
+}
