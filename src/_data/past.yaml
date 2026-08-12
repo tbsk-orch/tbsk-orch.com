@@ -416,8 +416,8 @@
   venue_link: https://www.dai-ichi-seimei-hall.jp/
   venue_name: 第一生命ホール
 - id: c20180211
-  title: 2018/02/11(月)第8回定期演奏会
-  datetime: 2018年2月11日(日) 13:00開場 13:30開演
+  title: 2018/02/11(日・祝)第8回定期演奏会
+  datetime: 2018年2月11日(日・祝) 13:00開場 13:30開演
   conductor: 久世武志
   images:
     - /images/pnf/8th.jpg
