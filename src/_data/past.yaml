@@ -148,7 +148,7 @@
     - バレエ音楽「ペトルーシュカ(1947年版)」/I.ストラヴィンスキー
   encore:
     - 「ペトルーシュカ」より「ロシアの踊り」/I.ストラヴィンスキー
-  other_desc: "ソリスト: 西尾真実"
+  other_desc: "ピアノ: 西尾真実"
   venue_link: https://www.kawasaki-sym-hall.jp/
   venue_name: ミューザ川崎シンフォニーホール
 - id: c20230318
@@ -320,6 +320,7 @@
     - パリのアメリカ人/G.ガーシュウィン
     - 舞踏会の美女/L.アンダーソン
     - ラプソディ・イン・ブルー/G.ガーシュウィン
+  other_desc: "ピアノ独奏: ジュリアーノ・アドルノ"
   venue_link: https://www.towerhall.jp/
   venue_name: タワーホール船堀大ホール
 - id: c20190430
@@ -367,7 +368,7 @@
     - 1日目夜の部(大編成アンサンブル)：交響曲第1番より第4楽章/J.ブラームス
     - 2日目夜の部(TBSK管弦楽団特別公演)：「ふるさと」（合唱）
 - id: c20181209
-  title: 2018/12/09（日） 第九回定期演奏会
+  title: 2018/12/09（日） 第9回定期演奏会
   datetime: 2018年12月9日(日) 13:00開場 13:30開演
   conductor: 久世武志
   images:
@@ -376,6 +377,9 @@
     - 交響曲第9番/D.ショスタコーヴィチ
     - 室内交響曲第1番 Op.9b(管弦楽版)/A.シェーンベルク
     - 交響曲「大地の歌」/G.マーラー
+  other_desc: |
+    メゾソプラノ: 森山京子
+    テノール: 井出司
   venue_link: https://www.kawasaki-sym-hall.jp/
   venue_name: ミューザ川崎シンフォニーホール
 - id: c20180816
@@ -400,7 +404,7 @@
   venue_link: https://salvia.hall-info.jp/
   venue_name: 横浜市鶴見区民文化センター　サルビアホール
 - id: c20180602
-  title: 2018/06/02（土）TBSK室内管弦楽団 第二回演奏会
+  title: 2018/06/02（土）TBSK室内管弦楽団 第2回演奏会
   datetime: 2018年6月2日(土) 17:00開場 17:30開演
   conductor: 久世武志
   images:
@@ -412,8 +416,8 @@
   venue_link: https://www.dai-ichi-seimei-hall.jp/
   venue_name: 第一生命ホール
 - id: c20180211
-  title: 2018/02/11(月)第八回定期演奏会
-  datetime: 2018年2月11日(日) 13:00開場 13:30開演
+  title: 2018/02/11(日・祝)第8回定期演奏会
+  datetime: 2018年2月11日(日・祝) 13:00開場 13:30開演
   conductor: 久世武志
   images:
     - /images/pnf/8th.jpg
@@ -462,7 +466,7 @@
   venue_link: https://megurokuchushokigyocenter.jp/
   venue_name: 目黒区中小企業センターホール
 - id: c20170108
-  title: 2017/01/08(日)TBSK管弦楽団 第七回定期演奏会
+  title: 2017/01/08(日)TBSK管弦楽団 第7回定期演奏会
   datetime: 2017年1月8日(日) 13:30開場 14:00開演
   conductor: 久世武志
   images:
@@ -471,6 +475,9 @@
     - 管弦楽のための舞踏詩「ラ・ヴァルス」/M.ラヴェル
     - ピアノ協奏曲 ト長調/M.ラヴェル
     - バレエ音楽「ダフニスとクロエ」全曲/M.ラヴェル
+  other_desc: |
+    ゲストコンサートミストレス: 三ツ木摩理
+    ピアノ独奏: 山田剛史
   venue_link: https://yokohama-minatomiraihall.jp/
   venue_name: 横浜みなとみらいホール 大ホール
 - id: c20161002
@@ -614,8 +621,9 @@
   program:
     - 魔法使いの弟子/P.デュカス
     - 交響詩「死の舞踏」/C.サン＝サーンス
-    - シェエラザード/M.ラヴェル(Ms.堀 万里絵)
+    - シェエラザード/M.ラヴェル
     - 交響詩「海」/C.ドビュッシー
+  other_desc: "メゾソプラノ: 堀 万里絵"
   venue_link: https://www.ota-bunka.or.jp/facilities/aprico
   venue_name: 大田区民ホールアプリコ 大ホール
 - id: c20130720
